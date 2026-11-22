@@ -3,7 +3,7 @@ from typing import Optional
 
 
 class DatabaseManager:
-    def __init__(self, db_path: str = "inventario_master.db") -> None:
+    def __init__(self, db_path: str = "Taller_database.db") -> None:
         self.db_path: str = db_path
         self.__connection: Optional[sqlite3.Connection] = None
         self.__cursor: Optional[sqlite3.Cursor] = None
